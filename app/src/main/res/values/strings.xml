@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">QuizApp</string>
     <!--Questions-->
-    <string name="question1">"Acura is the luxury brand of what car manufacturer?"</string>
-    <string name="question2">What is the motorsports and performance division of Nissan?</string>
-    <string name="question3">Volkswagen owns</string>
+    <string name="question1">"Acura is the luxury brand of what manufacturer?"</string>
+    <string name="question2">Volkswagen owns</string>
+    <string name="question3">What is the motorsports and performance division of Nissan?</string>
     <string name="question4">Infiniti is the luxury brand of</string>
     <string name="question5">What is the fastest production car?</string>
 
@@ -15,13 +15,14 @@
     <string name="q1correct">"Honda"</string>
 
     <!--Answer for question2-->
-    <string name="q2correct">"Nismo"</string>
+    <string name="q2correct1">"Audi"</string>
+    <string name="q2correct2">"Bentley"</string>
+    <string name="q2correct3">"Bugatti"</string>
+    <string name="q2Incorrect">"Lexus"</string>
+
 
     <!--Answer for question3-->
-    <string name="q3correct1">"Audi"</string>
-    <string name="q3correct2">"Bentley"</string>
-    <string name="q3correct3">"Bugatti"</string>
-    <string name="q3Incorrect">"Lexus"</string>
+    <string name="q3correct">"Nismo"</string>
 
     <!--Answer for question4-->
     <string name="q4correct1">"Nissan"</string>
@@ -34,11 +35,5 @@
     <string name="q5Incorrect2">"Lamborghini Aventador"</string>
     <string name="q5correct">"Bugatti Veyron"</string>
     <string name="q5Incorrect3">"Lexus Lfa"</string>
-
-
-
-
-
-
 
 </resources>
