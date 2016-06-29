@@ -49,12 +49,12 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
-                switch (checkedId) {
-
-                    case R.id.radioButton4Q1:
-                        selectedAnsQ1 = "correct";
-                        break;
+                if (checkedId == R.id.radioButton4Q1) {
+                    selectedAnsQ1 = "correct";
+                } else {
+                    Toast.makeText(getApplicationContext(), "Wrong Answer ", Toast.LENGTH_LONG).show();
                 }
+
             }
         });
 
@@ -114,5 +114,7 @@ public class MainActivity extends AppCompatActivity {
         if ((writtenAns.getText().toString().equalsIgnoreCase("Nismo"))) {
             correctAns++;
         }
+
+
     }
 }
