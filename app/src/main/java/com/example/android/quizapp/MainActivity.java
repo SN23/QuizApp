@@ -11,6 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     double correctAns = 0;
+    int i = 0;
 
     RadioGroup radioGroupQ1;
     RadioGroup radioGroupQ4;
@@ -36,7 +37,10 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void getScore(View view) {
-        checkAns();
+        if (i < 1) {
+            checkAns();
+            i++;
+        }
         double percentCorrect = (correctAns / 5) * 100;
         Toast.makeText(getApplicationContext(), "Percent: " + percentCorrect + "%", Toast.LENGTH_LONG).show();
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">QuizApp</string>
+    <string name="app_name">Quiz App</string>
     <!--Questions-->
     <string name="question1">"Acura is the luxury brand of what manufacturer?"</string>
     <string name="question2">Volkswagen owns</string>
